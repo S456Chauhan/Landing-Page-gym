@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding-top: 13px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(115, 118, 122);
+    font-size: 18px;
+}
+nav ul li a:hover{
+   color: aqua;
+}
+
+.topleft{
+    width: 50%;
+    
+}
+
+.topright{
+    width: 50%;
+   
+    
+}
+
+.section1 h1{
+    font-size: 2rem;
+
+}
+.section1 p{
+    color: rgb(115, 118, 122);
+}
+
+.logo{
+    font-size: 1.4rem;
+    width: 150px;
+    cursor: pointer;
+    margin-right: 30px;
+    padding-top: 13px ;
+    color:rgb(115, 118, 122);
+}
+
+.logo:hover{
+    color: aqua;
+}
+
+.dumbelling{
+    width: 250px;
+}
+
+.section2{
+    padding: 73px;   
+}
+
+.section2 h2{
+    font-size: 2rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+    color: rgb(115, 118, 122);
+}
+
+.box{
+    margin: 10px 20px;
+    min-width: 25vw;
+    border: 2px solid rgb(115, 118, 122);
+    text-align:center;
+    padding: 8px 0;
+    border-radius: 8px;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box h2{
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(115, 118, 122);
+    padding: 15px;
+}
+.section3 td{
+    border-bottom: 2px solid rgb(115, 118, 122);  
+}
+
+.section3 h2{
+    font-size: 2rem;
+}
+
+.section3{
+    padding: 73; 
+}
+
+footer{
+    padding: 23px;
+    color: black;
+}
+
+footer:hover{
+    color: aqua;
+}
